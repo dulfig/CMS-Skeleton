@@ -1,0 +1,140 @@
+----------------------------------------------------------------
+TimeStamp : 10/19/2020 9:13:59 PM -05:00 | Level : Error |
+----------------------------------------------------------------
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.1"
+UserName : "Xkalaber"
+ProcessID : 14160
+ProcessName : "iisexpress"
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/19/2020 9:13:59 PM -05:00 | Level : Warning |
+----------------------------------------------------------------
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.1"
+UserName : "Xkalaber"
+ProcessID : 14160
+ProcessName : "iisexpress"
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/19/2020 9:13:59 PM -05:00 | Level : Fatal |
+----------------------------------------------------------------
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.1"
+UserName : "Xkalaber"
+ProcessID : 14160
+ProcessName : "iisexpress"
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/19/2020 9:16:00 PM -05:00 | Level : Error |
+----------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000006-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|6b9c01fa-425b9cfcd51053cb."
+TraceId : "6b9c01fa-425b9cfcd51053cb"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.1"
+UserName : "Xkalaber"
+ProcessID : 14160
+ProcessName : "iisexpress"
+-----------------------EXCEPTION DETAILS-----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+Source - Microsoft.AspNetCore.SpaServices.Extensions
+InnerException - 
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/19/2020 9:18:24 PM -05:00 | Level : Error |
+----------------------------------------------------------------
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.1"
+UserName : "Xkalaber"
+ProcessID : 25364
+ProcessName : "iisexpress"
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/19/2020 9:18:24 PM -05:00 | Level : Warning |
+----------------------------------------------------------------
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.1"
+UserName : "Xkalaber"
+ProcessID : 25364
+ProcessName : "iisexpress"
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/19/2020 9:18:24 PM -05:00 | Level : Fatal |
+----------------------------------------------------------------
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.1"
+UserName : "Xkalaber"
+ProcessID : 25364
+ProcessName : "iisexpress"
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/19/2020 9:20:24 PM -05:00 | Level : Error |
+----------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000008-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|66ad3571-476ac7dc226d393d."
+TraceId : "66ad3571-476ac7dc226d393d"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.1"
+UserName : "Xkalaber"
+ProcessID : 25364
+ProcessName : "iisexpress"
+-----------------------EXCEPTION DETAILS-----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+Source - Microsoft.AspNetCore.SpaServices.Extensions
+InnerException - 
+---------------------------------------------------------------------

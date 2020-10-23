@@ -1,0 +1,9 @@
+C:\Users\Xkalaber\code\CMS-Skeleton\LoggingService\bin\Debug\netstandard2.1\LoggingService.deps.json
+C:\Users\Xkalaber\code\CMS-Skeleton\LoggingService\bin\Debug\netstandard2.1\LoggingService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\LoggingService\bin\Debug\netstandard2.1\LoggingService.pdb
+C:\Users\Xkalaber\code\CMS-Skeleton\LoggingService\obj\Debug\netstandard2.1\LoggingService.csprojAssemblyReference.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\LoggingService\obj\Debug\netstandard2.1\LoggingService.AssemblyInfoInputs.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\LoggingService\obj\Debug\netstandard2.1\LoggingService.AssemblyInfo.cs
+C:\Users\Xkalaber\code\CMS-Skeleton\LoggingService\obj\Debug\netstandard2.1\LoggingService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\LoggingService\obj\Debug\netstandard2.1\LoggingService.pdb
+C:\Users\Xkalaber\code\CMS-Skeleton\LoggingService\obj\Debug\netstandard2.1\LoggingService.csproj.CoreCompileInputs.cache

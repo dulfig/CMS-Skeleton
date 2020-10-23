@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>CMS Application</title>
+    <meta name="description" content="CMS App build with Angular 10 in ASP.Net Core 3"/>
+    <meta name="author" content="Xkalaber"/>
+    <link href="~/favicon.ico" rel="icon"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="content">
+            @RenderBody()
+        </div>
+    </div>
+    @RenderSection("Scripts",required: false)
+</body>
+</html>
