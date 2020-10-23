@@ -1,10 +1,16 @@
+using DataService;
+using FunctService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ModelService;
+using System;
 
 namespace CMS
 {
@@ -26,6 +32,38 @@ namespace CMS
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+            //----------------Configuring Database Service---------------------
+            //Migrating AppDbContext
+            services.AddDbContext<AppDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("CMS_Dev"), x => x.MigrationsAssembly("CMS")));
+            //Migrating DataProtectionKeyContext
+            services.AddDbContext<DataProtectionKeyContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DataProtectionKeyContext"), x => x.MigrationsAssembly("CMS")));
+            //----------------Configuring Functional Service---------------------
+            //Creates new Functional Service per request
+            services.AddTransient<IFunctServ, FunctServ>();
+            //Load default users from appsettings.json
+            services.Configure<AppUO>(Configuration.GetSection("AppUO"));
+            services.Configure<AdminUO>(Configuration.GetSection("AdminUO"));
+            //----------------Configuring Identity Options---------------------
+            //Defines properties for user creation
+            var identityDefaultConfig = Configuration.GetSection("IdentityDefaultOp");
+            services.Configure<IdentityDefaultOp>(identityDefaultConfig);
+            var identityDefaultOp = identityDefaultConfig.Get<IdentityDefaultOp>();
+            services.AddIdentity<AppUser, IdentityRole>(options =>
+            {
+                options.Password.RequireDigit = identityDefaultOp.PwdReqDigit;
+                options.Password.RequiredLength = identityDefaultOp.PwdReqLength;
+                options.Password.RequireNonAlphanumeric = identityDefaultOp.PwdReqNonAlphanumeric;
+                options.Password.RequireUppercase = identityDefaultOp.PwdReqUpperCase;
+                options.Password.RequireLowercase = identityDefaultOp.PwdReqLowerCase;
+                options.Password.RequiredUniqueChars = identityDefaultOp.PwdReqUniqueChars;
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(identityDefaultOp.LockoutDefaultLockoutMinutes);
+                options.Lockout.MaxFailedAccessAttempts = identityDefaultOp.LockoutMaxFailedAttempts;
+                options.Lockout.AllowedForNewUsers = identityDefaultOp.LockoutAllowedForNewUser;
+                options.User.RequireUniqueEmail = identityDefaultOp.UserReqUniqueEmail;
+                options.SignIn.RequireConfirmedEmail = identityDefaultOp.SignInReqConfirmEmail;
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
