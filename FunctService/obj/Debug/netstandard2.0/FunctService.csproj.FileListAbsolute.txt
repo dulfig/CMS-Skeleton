@@ -1,0 +1,5 @@
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\bin\Debug\netstandard2.0\FunctService.deps.json
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\bin\Debug\netstandard2.0\FunctService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\obj\Debug\netstandard2.0\FunctService.csprojAssemblyReference.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\obj\Debug\netstandard2.0\FunctService.AssemblyInfoInputs.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\obj\Debug\netstandard2.0\FunctService.AssemblyInfo.cs

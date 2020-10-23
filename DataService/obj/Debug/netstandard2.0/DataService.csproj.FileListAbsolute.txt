@@ -1,0 +1,8 @@
+C:\Users\Xkalaber\code\CMS-Skeleton\DataService\bin\Debug\netstandard2.0\DataService.deps.json
+C:\Users\Xkalaber\code\CMS-Skeleton\DataService\bin\Debug\netstandard2.0\DataService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\DataService\bin\Debug\netstandard2.0\DataService.pdb
+C:\Users\Xkalaber\code\CMS-Skeleton\DataService\obj\Debug\netstandard2.0\DataService.csprojAssemblyReference.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\DataService\obj\Debug\netstandard2.0\DataService.AssemblyInfoInputs.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\DataService\obj\Debug\netstandard2.0\DataService.AssemblyInfo.cs
+C:\Users\Xkalaber\code\CMS-Skeleton\DataService\obj\Debug\netstandard2.0\DataService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\DataService\obj\Debug\netstandard2.0\DataService.pdb

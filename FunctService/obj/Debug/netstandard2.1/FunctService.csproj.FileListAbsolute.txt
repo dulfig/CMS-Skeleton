@@ -1,0 +1,14 @@
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\bin\Debug\netstandard2.1\FunctService.deps.json
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\bin\Debug\netstandard2.1\FunctService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\obj\Debug\netstandard2.1\FunctService.AssemblyInfoInputs.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\obj\Debug\netstandard2.1\FunctService.AssemblyInfo.cs
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\bin\Debug\netstandard2.1\FunctService.pdb
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\bin\Debug\netstandard2.1\LoggingService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\bin\Debug\netstandard2.1\ModelService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\bin\Debug\netstandard2.1\LoggingService.pdb
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\bin\Debug\netstandard2.1\ModelService.pdb
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\obj\Debug\netstandard2.1\FunctService.csprojAssemblyReference.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\obj\Debug\netstandard2.1\FunctService.csproj.CopyComplete
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\obj\Debug\netstandard2.1\FunctService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\obj\Debug\netstandard2.1\FunctService.pdb
+C:\Users\Xkalaber\code\CMS-Skeleton\FunctService\obj\Debug\netstandard2.1\FunctService.csproj.CoreCompileInputs.cache
