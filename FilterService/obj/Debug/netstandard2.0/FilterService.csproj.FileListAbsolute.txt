@@ -1,0 +1,5 @@
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\bin\Debug\netstandard2.0\FilterService.deps.json
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\bin\Debug\netstandard2.0\FilterService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\obj\Debug\netstandard2.0\FilterService.csprojAssemblyReference.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\obj\Debug\netstandard2.0\FilterService.AssemblyInfoInputs.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\obj\Debug\netstandard2.0\FilterService.AssemblyInfo.cs

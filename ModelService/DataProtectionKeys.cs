@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ModelService
+{
+    public class DataProtectionKeys
+    {
+        public string AppUserKey { get; set; }
+        //public string SendGridProtectionKey { get; set; }
+    }
+}

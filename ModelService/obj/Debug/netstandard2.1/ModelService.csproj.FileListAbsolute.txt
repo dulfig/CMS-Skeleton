@@ -6,4 +6,3 @@ C:\Users\Xkalaber\code\CMS-Skeleton\ModelService\obj\Debug\netstandard2.1\ModelS
 C:\Users\Xkalaber\code\CMS-Skeleton\ModelService\bin\Debug\netstandard2.1\ModelService.pdb
 C:\Users\Xkalaber\code\CMS-Skeleton\ModelService\obj\Debug\netstandard2.1\ModelService.dll
 C:\Users\Xkalaber\code\CMS-Skeleton\ModelService\obj\Debug\netstandard2.1\ModelService.pdb
-C:\Users\Xkalaber\code\CMS-Skeleton\ModelService\obj\Debug\netstandard2.1\ModelService.csproj.CoreCompileInputs.cache

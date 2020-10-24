@@ -13,4 +13,3 @@ C:\Users\Xkalaber\code\CMS-Skeleton\DataService\bin\Debug\netstandard2.1\ModelSe
 C:\Users\Xkalaber\code\CMS-Skeleton\DataService\obj\Debug\netstandard2.1\DataService.csproj.CopyComplete
 C:\Users\Xkalaber\code\CMS-Skeleton\DataService\obj\Debug\netstandard2.1\DataService.dll
 C:\Users\Xkalaber\code\CMS-Skeleton\DataService\obj\Debug\netstandard2.1\DataService.pdb
-C:\Users\Xkalaber\code\CMS-Skeleton\DataService\obj\Debug\netstandard2.1\DataService.csproj.CoreCompileInputs.cache

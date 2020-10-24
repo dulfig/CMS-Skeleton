@@ -32,3 +32,107 @@ Message - The Angular CLI process did not start listening for requests within th
 Source - Microsoft.AspNetCore.SpaServices.Extensions
 InnerException - 
 ---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/24/2020 4:12:17 AM -05:00 | Level : Error |
+----------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000029-0005-ff00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|8331c43b-49ecb3f1ac5a20da."
+TraceId : "8331c43b-49ecb3f1ac5a20da"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.9"
+UserName : "Xkalaber"
+ProcessID : 10976
+ProcessName : "iisexpress"
+-----------------------EXCEPTION DETAILS-----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+Source - Microsoft.AspNetCore.SpaServices.Extensions
+InnerException - 
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/24/2020 4:36:24 AM -05:00 | Level : Error |
+----------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000040-0001-ff00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|a1819ced-413839656657a2a5."
+TraceId : "a1819ced-413839656657a2a5"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.9"
+UserName : "Xkalaber"
+ProcessID : 40040
+ProcessName : "iisexpress"
+-----------------------EXCEPTION DETAILS-----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+Source - Microsoft.AspNetCore.SpaServices.Extensions
+InnerException - 
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/24/2020 4:43:41 AM -05:00 | Level : Error |
+----------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000016-0003-fd00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|1fadb56f-4c1c7795d3a5a359."
+TraceId : "1fadb56f-4c1c7795d3a5a359"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.9"
+UserName : "Xkalaber"
+ProcessID : 31560
+ProcessName : "iisexpress"
+-----------------------EXCEPTION DETAILS-----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+Source - Microsoft.AspNetCore.SpaServices.Extensions
+InnerException - 
+---------------------------------------------------------------------

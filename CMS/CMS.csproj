@@ -46,7 +46,8 @@
     <Folder Include="Areas\Admin\Views\SiteSettings\" />
     <Folder Include="Areas\Admin\Views\User\" />
     <Folder Include="Areas\Admin\Views\UserRole\" />
-    <Folder Include="Areas\Admin\Views\Account\" />
+    <Folder Include="wwwroot\fonts\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

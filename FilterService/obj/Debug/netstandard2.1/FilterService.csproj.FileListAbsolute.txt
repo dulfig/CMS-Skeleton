@@ -1,0 +1,11 @@
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\bin\Debug\netstandard2.1\FilterService.deps.json
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\bin\Debug\netstandard2.1\FilterService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\bin\Debug\netstandard2.1\FilterService.pdb
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\bin\Debug\netstandard2.1\ModelService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\bin\Debug\netstandard2.1\ModelService.pdb
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\obj\Debug\netstandard2.1\FilterService.csprojAssemblyReference.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\obj\Debug\netstandard2.1\FilterService.AssemblyInfoInputs.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\obj\Debug\netstandard2.1\FilterService.AssemblyInfo.cs
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\obj\Debug\netstandard2.1\FilterService.csproj.CopyComplete
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\obj\Debug\netstandard2.1\FilterService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\FilterService\obj\Debug\netstandard2.1\FilterService.pdb
