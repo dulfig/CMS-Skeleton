@@ -23,6 +23,7 @@ A control management skeleton to be used as a basic outline and as a testing env
 * jQuery
 * popper.js
 * twitter-boostrap V4.5.0
+* font-awesome
 ## Packages
 * Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
 * Microsoft.AspNetCore.SpaServices.Extensions
@@ -39,3 +40,4 @@ A control management skeleton to be used as a basic outline and as a testing env
 * Serilog.Sinks.Async
 * Serilog.Sinks.Console
 * Serilog.Sinks.File
+* BuildBundlerMinifier
