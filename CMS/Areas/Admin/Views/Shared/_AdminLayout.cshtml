@@ -1,19 +1,25 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>CMS Application</title>
-    <meta name="description" content="CMS App build with Angular 10 in ASP.Net Core 3"/>
-    <meta name="author" content="Xkalaber"/>
-    <link href="~/favicon.ico" rel="icon"/>
+    <meta name="description" content="CMS App build with Angular 10 in ASP.Net Core 3" />
+    <meta name="author" content="Xkalaber" />
+    <link href="~/favicon.ico" rel="icon" />
+    @await  Html.PartialAsync("_AppHdrStylesPartial")
+    @RenderSection("Styles", required: false)
 </head>
 <body>
     <div class="wrapper">
+        @await Html.PartialAsync("_SideBarLayout")
         <div id="content">
+            @await Html.PartialAsync("_TopBarLayout")
             @RenderBody()
         </div>
     </div>
-    @RenderSection("Scripts",required: false)
+    @await Html.PartialAsync("_FooterLayout")
+    @await Html.PartialAsync("_ScriptsPartial")
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

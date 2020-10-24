@@ -740,3 +740,245 @@ Message - The partial view '_FooterLayout' was not found. The following location
 Source - Microsoft.AspNetCore.Mvc.ViewFeatures
 InnerException - 
 ---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/23/2020 9:43:19 PM -05:00 | Level : Error |
+----------------------------------------------------------------
+ViewName : "Index"
+SearchedViewLocations : ["/Areas/Admin/Views/User/Index.cshtml", "/Areas/Admin/Views/Shared/Index.cshtml", "/Views/Shared/Index.cshtml", "/Pages/Shared/Index.cshtml"]
+EventId : { Id: 3, Name: "ViewNotFound" }
+SourceContext : "Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor"
+ActionId : "487e5cb4-82f1-467b-b1ac-9697a7e1aa46"
+ActionName : "CMS.Areas.Admin.Controllers.UserController.Index (CMS)"
+RequestId : "8000001b-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/User"
+SpanId : "|d6c780f2-44be67f8e3b4922c."
+TraceId : "d6c780f2-44be67f8e3b4922c"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.9"
+UserName : "Xkalaber"
+ProcessID : 6176
+ProcessName : "iisexpress"
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/23/2020 9:43:19 PM -05:00 | Level : Error |
+----------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "8000001b-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/User"
+SpanId : "|d6c780f2-44be67f8e3b4922c."
+TraceId : "d6c780f2-44be67f8e3b4922c"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.9"
+UserName : "Xkalaber"
+ProcessID : 6176
+ProcessName : "iisexpress"
+-----------------------EXCEPTION DETAILS-----------------------
+Exception - System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Areas/Admin/Views/User/Index.cshtml
+/Areas/Admin/Views/Shared/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+StackTrace -    at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Message - The view 'Index' was not found. The following locations were searched:
+/Areas/Admin/Views/User/Index.cshtml
+/Areas/Admin/Views/Shared/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+Source - Microsoft.AspNetCore.Mvc.ViewFeatures
+InnerException - 
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/23/2020 10:07:58 PM -05:00 | Level : Error |
+----------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000022-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|93fb2f1b-4bbb4f01c17af17a."
+TraceId : "93fb2f1b-4bbb4f01c17af17a"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.9"
+UserName : "Xkalaber"
+ProcessID : 36908
+ProcessName : "iisexpress"
+-----------------------EXCEPTION DETAILS-----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+Source - Microsoft.AspNetCore.SpaServices.Extensions
+InnerException - 
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/23/2020 10:12:54 PM -05:00 | Level : Error |
+----------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000015-0000-fe00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|df7ce8c9-4a1afacddbef23f4."
+TraceId : "df7ce8c9-4a1afacddbef23f4"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.9"
+UserName : "Xkalaber"
+ProcessID : 28768
+ProcessName : "iisexpress"
+-----------------------EXCEPTION DETAILS-----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+Source - Microsoft.AspNetCore.SpaServices.Extensions
+InnerException - 
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/23/2020 10:18:14 PM -05:00 | Level : Error |
+----------------------------------------------------------------
+ViewName : "Index"
+SearchedViewLocations : ["/Areas/Admin/Views/User/Index.cshtml", "/Areas/Admin/Views/Shared/Index.cshtml", "/Views/Shared/Index.cshtml", "/Pages/Shared/Index.cshtml"]
+EventId : { Id: 3, Name: "ViewNotFound" }
+SourceContext : "Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor"
+ActionId : "e29b3334-18ca-4337-8893-1e44dfee583a"
+ActionName : "CMS.Areas.Admin.Controllers.UserController.Index (CMS)"
+RequestId : "80000034-0001-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/User"
+SpanId : "|df7ce8d9-4a1afacddbef23f4."
+TraceId : "df7ce8d9-4a1afacddbef23f4"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.9"
+UserName : "Xkalaber"
+ProcessID : 28768
+ProcessName : "iisexpress"
+---------------------------------------------------------------------
+----------------------------------------------------------------
+TimeStamp : 10/23/2020 10:18:14 PM -05:00 | Level : Error |
+----------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000034-0001-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/User"
+SpanId : "|df7ce8d9-4a1afacddbef23f4."
+TraceId : "df7ce8d9-4a1afacddbef23f4"
+ParentId : ""
+Application : "CMS_Skeleton"
+MachineName : "DESKTOP-GOR68E1"
+CurrentManagedThreadID : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.9"
+UserName : "Xkalaber"
+ProcessID : 28768
+ProcessName : "iisexpress"
+-----------------------EXCEPTION DETAILS-----------------------
+Exception - System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Areas/Admin/Views/User/Index.cshtml
+/Areas/Admin/Views/Shared/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+StackTrace -    at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Message - The view 'Index' was not found. The following locations were searched:
+/Areas/Admin/Views/User/Index.cshtml
+/Areas/Admin/Views/Shared/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+Source - Microsoft.AspNetCore.Mvc.ViewFeatures
+InnerException - 
+---------------------------------------------------------------------
