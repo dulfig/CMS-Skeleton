@@ -18,6 +18,7 @@ A control management skeleton to be used as a basic outline and as a testing env
 * Angular 10
 * MSSQL Server
 * Docker- used as MSSQL Server container
+* Microsoft Library Manager
 ## Libraries
 * jQuery
 * popper.js
