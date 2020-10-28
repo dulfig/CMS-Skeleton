@@ -1,0 +1,5 @@
+C:\Users\Xkalaber\code\CMS-Skeleton\AuthService\bin\Debug\netstandard2.0\AuthService.deps.json
+C:\Users\Xkalaber\code\CMS-Skeleton\AuthService\bin\Debug\netstandard2.0\AuthService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\AuthService\obj\Debug\netstandard2.0\AuthService.csprojAssemblyReference.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\AuthService\obj\Debug\netstandard2.0\AuthService.AssemblyInfoInputs.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\AuthService\obj\Debug\netstandard2.0\AuthService.AssemblyInfo.cs

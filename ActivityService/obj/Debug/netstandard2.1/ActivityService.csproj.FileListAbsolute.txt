@@ -1,0 +1,8 @@
+C:\Users\Xkalaber\code\CMS-Skeleton\ActivityService\bin\Debug\netstandard2.1\ActivityService.deps.json
+C:\Users\Xkalaber\code\CMS-Skeleton\ActivityService\bin\Debug\netstandard2.1\ActivityService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\ActivityService\bin\Debug\netstandard2.1\ActivityService.pdb
+C:\Users\Xkalaber\code\CMS-Skeleton\ActivityService\obj\Debug\netstandard2.1\ActivityService.csprojAssemblyReference.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\ActivityService\obj\Debug\netstandard2.1\ActivityService.AssemblyInfoInputs.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\ActivityService\obj\Debug\netstandard2.1\ActivityService.AssemblyInfo.cs
+C:\Users\Xkalaber\code\CMS-Skeleton\ActivityService\obj\Debug\netstandard2.1\ActivityService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\ActivityService\obj\Debug\netstandard2.1\ActivityService.pdb

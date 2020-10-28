@@ -1,0 +1,5 @@
+C:\Users\Xkalaber\code\CMS-Skeleton\CookiesService\bin\Debug\netstandard2.0\CookiesService.deps.json
+C:\Users\Xkalaber\code\CMS-Skeleton\CookiesService\bin\Debug\netstandard2.0\CookiesService.dll
+C:\Users\Xkalaber\code\CMS-Skeleton\CookiesService\obj\Debug\netstandard2.0\CookiesService.csprojAssemblyReference.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\CookiesService\obj\Debug\netstandard2.0\CookiesService.AssemblyInfoInputs.cache
+C:\Users\Xkalaber\code\CMS-Skeleton\CookiesService\obj\Debug\netstandard2.0\CookiesService.AssemblyInfo.cs

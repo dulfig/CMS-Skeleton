@@ -1,0 +1,485 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\AuthService\\AuthService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ActivityService\\ActivityService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ActivityService\\ActivityService.csproj",
+        "projectName": "ActivityService",
+        "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ActivityService\\ActivityService.csproj",
+        "packagesPath": "C:\\Users\\Xkalaber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ActivityService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xkalaber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\AuthService\\AuthService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\AuthService\\AuthService.csproj",
+        "projectName": "AuthService",
+        "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\AuthService\\AuthService.csproj",
+        "packagesPath": "C:\\Users\\Xkalaber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\AuthService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xkalaber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ActivityService\\ActivityService.csproj": {
+                "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ActivityService\\ActivityService.csproj"
+              },
+              "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\CookiesService\\CookiesService.csproj": {
+                "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\CookiesService\\CookiesService.csproj"
+              },
+              "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\DataService\\DataService.csproj": {
+                "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\DataService\\DataService.csproj"
+              },
+              "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\CookiesService\\CookiesService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\CookiesService\\CookiesService.csproj",
+        "projectName": "CookiesService",
+        "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\CookiesService\\CookiesService.csproj",
+        "packagesPath": "C:\\Users\\Xkalaber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\CookiesService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xkalaber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\DataService\\DataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\DataService\\DataService.csproj",
+        "projectName": "DataService",
+        "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\DataService\\DataService.csproj",
+        "packagesPath": "C:\\Users\\Xkalaber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\DataService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xkalaber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\FunctService\\FunctService.csproj": {
+                "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\FunctService\\FunctService.csproj"
+              },
+              "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\FunctService\\FunctService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\FunctService\\FunctService.csproj",
+        "projectName": "FunctService",
+        "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\FunctService\\FunctService.csproj",
+        "packagesPath": "C:\\Users\\Xkalaber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\FunctService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xkalaber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\LoggingService\\LoggingService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\LoggingService\\LoggingService.csproj",
+        "projectName": "LoggingService",
+        "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\LoggingService\\LoggingService.csproj",
+        "packagesPath": "C:\\Users\\Xkalaber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\LoggingService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xkalaber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ModelService\\ModelService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ModelService\\ModelService.csproj",
+        "projectName": "ModelService",
+        "projectPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ModelService\\ModelService.csproj",
+        "packagesPath": "C:\\Users\\Xkalaber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xkalaber\\code\\CMS-Skeleton\\ModelService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xkalaber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

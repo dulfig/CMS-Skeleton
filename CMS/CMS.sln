@@ -11,9 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataService", "..\DataServi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelService", "..\ModelService\ModelService.csproj", "{711D5584-9B2B-4E3B-91F4-59D33074A314}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctService", "..\FunctService\FunctService.csproj", "{93120FF3-1197-4DBF-BF90-C68FAE964EDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctService", "..\FunctService\FunctService.csproj", "{93120FF3-1197-4DBF-BF90-C68FAE964EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterService", "..\FilterService\FilterService.csproj", "{A32CE92B-BD4F-498F-B724-2E8EB21E13AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterService", "..\FilterService\FilterService.csproj", "{A32CE92B-BD4F-498F-B724-2E8EB21E13AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "..\AuthService\AuthService.csproj", "{76C46D9B-5543-4867-8926-CD42BD3B84EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookiesService", "..\CookiesService\CookiesService.csproj", "{43552A57-E55E-4879-89C1-23999829428C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivityService", "..\ActivityService\ActivityService.csproj", "{DA697648-9AE6-4C29-ABB1-1E2E3F7247CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{A32CE92B-BD4F-498F-B724-2E8EB21E13AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A32CE92B-BD4F-498F-B724-2E8EB21E13AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A32CE92B-BD4F-498F-B724-2E8EB21E13AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C46D9B-5543-4867-8926-CD42BD3B84EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C46D9B-5543-4867-8926-CD42BD3B84EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C46D9B-5543-4867-8926-CD42BD3B84EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C46D9B-5543-4867-8926-CD42BD3B84EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43552A57-E55E-4879-89C1-23999829428C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43552A57-E55E-4879-89C1-23999829428C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43552A57-E55E-4879-89C1-23999829428C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43552A57-E55E-4879-89C1-23999829428C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA697648-9AE6-4C29-ABB1-1E2E3F7247CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA697648-9AE6-4C29-ABB1-1E2E3F7247CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA697648-9AE6-4C29-ABB1-1E2E3F7247CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA697648-9AE6-4C29-ABB1-1E2E3F7247CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
